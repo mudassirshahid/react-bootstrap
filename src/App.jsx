@@ -1,0 +1,41 @@
+import './App.css'
+import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from '../src/components/Home'
+import About from '../src/components/About'
+import Services from '../src/components/Services'
+import WebDevelopment from './components/WebDevelopment';
+import Seo from './components/Seo';
+import WebDesign from './components/WebDesign';
+import Team from './components/Team';
+import Pricing from './components/Pricing';
+import Blog from './components/Blog';
+import Contact from './components/Contact'
+import Footer from './components/Footer';
+
+const App = () => {
+
+  return (
+    <>
+     <Router>
+     <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/service" element={<Services />} /> */}
+        <Route path="/webdevelopment" element={<WebDevelopment />} />
+        <Route path="/seo" element={<Seo />} />
+        <Route path="/webdesign" element={<WebDesign />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/Contact" element={<Contact />} />
+        {/* Define other routes */}
+      </Routes>
+      <Footer />
+    </Router>
+    </>
+  )
+}
+
+export default App
