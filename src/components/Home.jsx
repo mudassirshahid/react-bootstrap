@@ -8,6 +8,7 @@ import icon2 from "../assets/icon-2.png";
 import icon3 from "../assets/icon-3.png";
 import icon4 from "../assets/icon-4.png";
 import Slider from "./Slider";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,14 +28,14 @@ const Home = () => {
                   accurate users whereas communities assertively evolve
                   technically sound whereas real-time materials.
                 </p>
-                <a
+                <Link
                   href="#"
-                  class="btn bg-white rounded border btn-lg active text-primary px-4"
+                  className="btn bg-white rounded border btn-lg active text-primary px-4"
                   role="button"
                   aria-pressed="true"
                 >
                   Get Started Now
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-md-6">
@@ -111,7 +112,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
               <div className="info-img">
                 <img className="" src={infoImg} width="100%" height="80%" />
               </div>
