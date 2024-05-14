@@ -9,6 +9,7 @@ import icon3 from "../assets/icon-3.png";
 import icon4 from "../assets/icon-4.png";
 import Slider from "./Slider";
 import { Link } from "react-router-dom";
+import MouseSlider from "./MouseSlider";
 
 const Home = () => {
   return (
@@ -120,7 +121,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+      <MouseSlider />
     </>
   );
 };
