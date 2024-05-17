@@ -3,7 +3,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Import Swiper styles
 import "swiper/css/pagination"; // Import Swiper pagination styles
 import "../index.css";
-import mobile from "../assets/mobile.png";
 
 // Import Swiper modules
 import { Mousewheel, Pagination } from "swiper/modules";
@@ -180,7 +179,7 @@ const MouseSlider = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="swiper-slide-bg pt-4">
+      <SwiperSlide className="swiper-slide-bg pt-4 d-lg-block d-none">
       <CardsData />
       </SwiperSlide>
 
