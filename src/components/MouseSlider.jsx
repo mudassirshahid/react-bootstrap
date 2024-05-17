@@ -19,8 +19,8 @@ const MouseSlider = () => {
       modules={[Mousewheel, Pagination]}
       className="mySwiper mySwiper-custom"
     >
-      <SwiperSlide className="swiper-slide-bg">
-        <div className="container">
+      <SwiperSlide className="swiper-slide-bg d-flex justify-content-center align-items-center">
+        <div className="container p-md-0 p-4">
           <div className="row ">
           <div className="col-xl-6 col-lg-6">
             <div className="card l-bg-cherry">
@@ -99,8 +99,8 @@ const MouseSlider = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide className="swiper-slide-bg">
-      <div className="container">
+      <SwiperSlide className="swiper-slide-bg d-flex justify-content-center align-items-center">
+      <div className="container p-md-0 p-4">
           <div className="row ">
           <div className="col-xl-6 col-lg-6">
             <div className="card l-bg-green-dark">
