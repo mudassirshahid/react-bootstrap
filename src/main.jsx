@@ -27,14 +27,14 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<Home />} />
       <Route path="/about" element={<About />} />
-      {/* <Route path="/service" element={<Services />} /> */}
-      <Route path="/webdevelopment" element={<WebDevelopment />} />
-      <Route path="/seo" element={<Seo />} />;
-      <Route path="/webdesign" element={<WebDesign />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/team" element={<Team />} />
-      <Route path="/Contact" element={<Contact />} />
+      <Route path="/service" element={<Services />} />
+      <Route path="webdevelopment" element={<WebDevelopment />} />
+      <Route path="seo" element={<Seo />} />;
+      <Route path="webdesign" element={<WebDesign />} />
+      <Route path="pricing" element={<Pricing />} />
+      <Route path="blog" element={<Blog />} />
+      <Route path="team" element={<Team />} />
+      <Route path="Contact" element={<Contact />} />
     </Route>
   )
 );

@@ -5,14 +5,16 @@ import HeroSection from "./HeroSection";
 import InfoSection from "./InfoSection";
 import PricingTable from "./PricingTable";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
+    <div className="">{props.title}</div>
       <HeroSection />
       <Slider />
       <InfoSection />
       <MouseSlider />
       <PricingTable />
+      
     </>
   );
 };

@@ -5,7 +5,8 @@ import logo from '../assets/logo.png'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light container nav-index">
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light container nav-index">
       <Link className="navbar-brand" to="/"><img src={logo} /></Link> {/* Use Link instead of anchor */}
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -17,7 +18,7 @@ function Navbar() {
             <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/about">About</Link> {/* Use Link */}
+            <Link className="nav-link" to="about">About</Link> {/* Use Link */}
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -31,21 +32,23 @@ function Navbar() {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/pricing">Pricing</Link> {/* Use Link */}
+            <Link className="nav-link" to="pricing">Pricing</Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/blog">Blog</Link> {/* Use Link */}
+            <Link className="nav-link" to="blog">Blog</Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/team">Team</Link> {/* Use Link */}
+            <Link className="nav-link" to="team">Team</Link> {/* Use Link */}
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link> {/* Use Link */}
+            <Link className="nav-link" to="contact">Contact</Link> {/* Use Link */}
           </li>
         </ul>
        
       </div>
     </nav>
+      </>
+    
   );
 }
 

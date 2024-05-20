@@ -5,7 +5,7 @@ import Home from './Home'
 const About = () => {
   return (
     <div>
-      <Home />
+      <Home title="About"/>
       {/* <BgImage  backgroundImage={hero} /> */}
       <h1 className="about">About</h1>
     </div>

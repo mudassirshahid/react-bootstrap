@@ -1,7 +1,5 @@
 import React from 'react'
 import mobile from "../assets/mobile.png";
-import BgImage from "./BgImage";
-import particle from "../assets/particle.svg";
 import { Link } from "react-router-dom";
 
 
@@ -41,11 +39,11 @@ function HeroSection() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <br className='hide-br'/>
+      <br className='hide-br'/>
+      <br className='hide-br'/>
+      <br className='hide-br'/>
+      <br className='hide-br'/>
     </>
   )
 }
