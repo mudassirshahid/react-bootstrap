@@ -1,10 +1,12 @@
 import React from 'react'
+import Home from './Home'
 
 const Services = () => {
   return (
-    // <div>
-    //   services
-    // </div>
+    <div>
+      <Home />
+      {/* <h1>services</h1> */}
+    </div>
   )
 }
 
