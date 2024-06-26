@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Home title="About"/>
       {/* <BgImage  backgroundImage={hero} /> */}
-      <h1 className="about">About</h1>
+      {/* <h1 className="about">About</h1> */}
     </div>
   )
 }

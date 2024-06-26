@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <div>
       <Home />
-      <h1 className="team">Team</h1>
+      {/* <h1 className="team">Team</h1> */}
     </div>
   )
 }

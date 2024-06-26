@@ -5,7 +5,7 @@ const WebDevelopment = () => {
   return (
     <div>
         <Home />
-      <h1 className="wdev">Web DEV</h1>
+      {/* <h1 className="wdev">Web DEV</h1> */}
     </div>
   )
 }

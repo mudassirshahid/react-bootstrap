@@ -5,9 +5,9 @@ const Seo = () => {
   return (
     <div>
         <Home />
-      <h1 className="seo">
+      {/* <h1 className="seo">
         Seo
-      </h1>
+      </h1> */}
     </div>
   )
 }
