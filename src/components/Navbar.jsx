@@ -20,17 +20,17 @@ function Navbar() {
           <li className="nav-item">
             <Link className="nav-link" to="about">About</Link> {/* Use Link */}
           </li>
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="" role="button" data-toggle="dropdown" aria-expanded="false">
               Services
-            </Link> {/* Use Link */}
+            </Link>
             <div className="dropdown-menu nav-dd">
-              <Link className="dropdown-item" to="/webdevelopment">Web Developement</Link> {/* Use Link */}
-              <Link className="dropdown-item" to="/seo">SEO</Link> {/* Use Link */}
+              <Link className="dropdown-item" to="/webdevelopment">Web Developement</Link> 
+              <Link className="dropdown-item" to="/seo">SEO</Link>
               <div className="dropdown-divider"></div>
-              <Link className="dropdown-item" to="/webdesign">Web Design</Link> {/* Use Link */}
+              <Link className="dropdown-item" to="/webdesign">Web Design</Link> 
             </div>
-          </li>
+          </li> */}
           <li className="nav-item">
             <Link className="nav-link" to="pricing">Pricing</Link> {/* Use Link */}
           </li>
